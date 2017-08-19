@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Portfolio</title>
+</head>
+<body>
+  <div class="nav" id="nav">
+    <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">FAQ</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="pimg1">
+    <span id="open" class="open navBtn" onclick="openNav()">
+     <div class="one"></div>
+     <div class="two"></div>
+     <div class="three"></div>
+   </span>
+		<div class="ptext">
+      <a href="#" class="btn_one">
+        Portfolio
+      </a>
+		</div>
+	</div>
+
+	<section class="section section-light">
+		<h2>Section One</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum animi ipsam qui architecto velit, cum maxime, eos perspiciatis optio quaerat, repudiandae voluptatum? Rem, earum sequi reprehenderit, explicabo ipsum impedit nesciunt officiis consequuntur, maiores incidunt autem nisi repellat dolorem expedita quod, illum laborum alias obcaecati pariatur a ullam. Debitis, magni, culpa! Vel quam tempora deleniti maxime, aperiam quod voluptatibus illo assumenda facilis tempore blanditiis earum corrupti, cupiditate vitae debitis porro, id eaque dicta suscipit enim cumque sint ipsa totam. Hic quis, accusamus. Porro recusandae alias atque officia iusto illum dolores impedit esse placeat harum odio ullam adipisci incidunt explicabo neque, dolorum.</p>
+	</section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <!--Add the class trans to make the border disapear-->
+      <span class="border">
+        Coded from Scratch
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Section Two</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum animi ipsam qui architecto velit, cum maxime, eos perspiciatis optio quaerat, repudiandae voluptatum? Rem, earum sequi reprehenderit, explicabo ipsum impedit nesciunt officiis consequuntur, maiores incidunt autem nisi repellat dolorem expedita quod, illum laborum alias obcaecati pariatur a ullam. Debitis, magni, culpa! Vel quam tempora deleniti maxime, aperiam quod voluptatibus illo assumenda facilis tempore blanditiis earum corrupti, cupiditate vitae debitis porro, id eaque dicta suscipit enim cumque sint ipsa totam.
+    </p>
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border">
+        Custom Made
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Section Three</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum animi ipsam qui architecto velit, cum maxime, eos perspiciatis optio quaerat, repudiandae voluptatum? Rem, earum sequi reprehenderit, explicabo ipsum impedit nesciunt officiis consequuntur, maiores incidunt autem nisi repellat dolorem expedita quod, illum laborum alias obcaecati pariatur a ullam. Debitis, magni, culpa! Vel quam tempora deleniti maxime, aperiam quod voluptatibus illo assumenda facilis tempore blanditiis earum corrupti, cupiditate vitae debitis porro, id eaque dicta suscipit enim cumque sint ipsa totam.
+    </p>
+  </section>
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Theodor Holme
+      </span>
+    </div>
+  </div>
+  <script>
+  function openNav() {
+    document.getElementById("open").style.display = "none";
+    document.getElementById("nav").style.width = "100%";
+  }
+  function closeNav() {
+    document.getElementById("nav").style.width = "0";
+    document.getElementById("open").style.display = "block";
+  }
+  </script>
+</body>
+</html>
